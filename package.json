@@ -1,16 +1,28 @@
 {
   "name": "app-github-action",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "start": "node index",
     "test": "mocha"
-
   },
   "author": "hao sky zhou",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^8.2.1"
-  }
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyzhou0/node-app-github-action.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/skyzhou0/node-app-github-action/issues"
+  },
+  "homepage": "https://github.com/skyzhou0/node-app-github-action#readme",
+  "description": ""
 }
